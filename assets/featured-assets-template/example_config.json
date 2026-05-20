@@ -1,0 +1,54 @@
+{
+  "person_name": "Alex Morgan",
+  "brand": "Client Flow Systems",
+  "theme": {
+    "primary": "#1E6BFF",
+    "accent": "#35D5FF",
+    "secondary": "#27D6A3",
+    "highlight": "#FFC857",
+    "background": "#06162C"
+  },
+  "positioning": {
+    "buyer": "appointment-based service businesses",
+    "outcome": "turn attention into booked calls",
+    "mechanisms": "AI content angles and automated follow-up",
+    "cta_keyword": "FLOW"
+  },
+  "assets": [
+    {
+      "slug": "01-client-flow-system",
+      "title": "Client Flow System",
+      "subtitle": "A simple system for turning attention into booked calls with clearer follow-up.",
+      "chips": ["FOLLOW-UP", "BOOKED CALLS", "CLEAR COMMUNICATION"],
+      "type": "what_i_build"
+    },
+    {
+      "slug": "02-lead-leakage-checklist",
+      "title": "Lead Leakage Checklist",
+      "subtitle": "A diagnostic for service businesses that get interest but lose momentum before the booked call.",
+      "chips": ["DIAGNOSE", "FIX FOLLOW-UP", "BOOK MORE CALLS"],
+      "type": "checklist"
+    },
+    {
+      "slug": "03-content-angle-map",
+      "title": "Content Angle Map",
+      "subtitle": "Five content angles that turn attention into warmer, easier conversations.",
+      "chips": ["CONTENT", "BUYER OBJECTIONS", "FOLLOW-UP"],
+      "type": "angle_map"
+    },
+    {
+      "slug": "04-follow-up-flow-demo",
+      "title": "Follow-Up Flow Demo",
+      "subtitle": "A simple sequence for moving a warm inquiry toward a booked call.",
+      "chips": ["INQUIRY", "REASSURE", "BOOK"],
+      "type": "flow_demo"
+    },
+    {
+      "slug": "05-communication-philosophy",
+      "title": "Communication Philosophy",
+      "subtitle": "Good automation should make the buying decision easier, not make the business sound less human.",
+      "chips": ["CLEAR", "HUMAN", "EASY YES"],
+      "type": "philosophy"
+    }
+  ]
+}

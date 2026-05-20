@@ -21,6 +21,7 @@ Collect only what is needed for the user's goal:
 - 3 to 10 target job descriptions, client briefs, or competitor profiles when SEO matters
 - Proof: metrics, projects, links, awards, shipped work, case studies, media, testimonials
 - Constraints: confidentiality, tone, industries to avoid, claims that must not be made
+- Visual or brand preferences when creating Featured assets: colors, tone, logo rules, examples to match or avoid
 
 If the user asks for direct browser editing, draft first and get confirmation before saving/publishing changes.
 
@@ -47,17 +48,27 @@ If the user asks for direct browser editing, draft first and get confirmation be
    - Banner: visual positioning signal, not generic decoration.
    - About: clear narrative, proof, specialties, credibility, and call to action.
    - Experience: outcome-first bullets with scope, tools, and business context.
-   - Featured: proof assets that let the audience verify competence quickly.
+   - Featured: proof assets that let the audience verify competence quickly. Read `references/featured-assets-playbook.md` when creating a Featured plan or asset kit.
    - Skills: prioritize up to 100 relevant skills, with top visible skills aligned to the target.
    - Recommendations: request specific credibility from credible people.
    - Activity/content: reinforce the same expertise the profile claims.
 
-5. Create the content engine when requested.
+5. Clarify service-business offers when the user sells services.
+   - Read `references/client-flow-positioning.md` when the user has multiple related services, tool-heavy language, or wants clients to feel it is easy to say yes.
+   - Convert tools and deliverables into one buying outcome.
+   - Emphasize the path from attention, inquiry, trust, and follow-up to the desired conversion.
+
+6. Create Featured proof assets when requested.
+   - Use the five-asset system in `references/featured-assets-playbook.md` unless the user's market calls for a smaller set.
+   - Use `scripts/generate_featured_assets.py` with `assets/featured-assets-template/example_config.json` as the starting point when the user wants a designed blue asset kit.
+   - Keep private resumes, client details, and unpublished metrics out of reusable/public artifacts unless the user explicitly confirms inclusion.
+
+7. Create the content engine when requested.
    - Define 3 to 5 content pillars tied to the user's offer, expertise, proof, and point of view.
    - Mix authority posts, project breakdowns, lessons, opinionated analysis, social proof, and practical teaching.
    - Optimize for useful professional knowledge, not generic engagement bait.
 
-6. Deliver an implementation package.
+8. Deliver an implementation package.
    - Provide copy-paste-ready profile sections.
    - Include a keyword placement map.
    - Include before/after rationale if useful.
@@ -92,6 +103,7 @@ Choose the smallest complete output for the task:
 - `Profile Rewrite`: headline, About, experience, skills, Featured, recommendations, and implementation checklist.
 - `SEO Pack`: keyword map, placement plan, missing proof, and job/client alignment notes.
 - `Content Pack`: positioning statement, content pillars, post formats, first 10 to 30 post ideas, and engagement rules.
+- `Featured Asset Kit`: Featured section strategy, document/carousel copy, captions, upload order, and optional generated PNG/PDF assets.
 - `Full Rebuild`: all of the above plus a 30-day execution plan.
 
 ## References
@@ -100,6 +112,8 @@ Choose the smallest complete output for the task:
 - `references/expert-stack.md`: profile, SEO, recruiter, and content experts to synthesize.
 - `references/profile-templates.md`: reusable formulas for profile copy and content.
 - `references/audit-scorecard.md`: scoring rubric and acceptance criteria.
+- `references/client-flow-positioning.md`: turn service offers and tool lists into a clear buying outcome.
+- `references/featured-assets-playbook.md`: create Featured assets that demonstrate thinking, proof, and conversion clarity.
 
 ## Verification
 
@@ -110,3 +124,4 @@ Before claiming a rebuild is ready:
 - Check the profile has a clear next action for the target audience.
 - Check the tone fits the user's market: recruiter-facing, client-facing, executive, founder, creator, or technical.
 - Check that algorithm or SEO advice is dated and sourced when it depends on current platform behavior.
+- If generating assets, verify each file is nonblank, readable, aligned to the user's positioning, and free of private details that should not be published.

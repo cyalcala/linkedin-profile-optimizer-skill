@@ -14,6 +14,7 @@ The skill combines four layers:
 - **LinkedIn SEO**: map target keywords into the right sections without stuffing
 - **Trust architecture**: strengthen Featured assets, recommendations, skills, verification, and proof
 - **Content strategy**: turn expertise into repeatable posts, pillars, and professional authority signals
+- **Proof assets**: turn positioning into Featured carousels, checklists, diagnostics, and flow demos
 
 ## Goals
 
@@ -32,6 +33,8 @@ This skill is designed to produce:
 - A full LinkedIn audit with scoring, gaps, and priorities
 - A rebuilt headline, About section, experience section, skills strategy, and Featured plan
 - A recruiter or client-facing keyword map based on target roles, job descriptions, or market briefs
+- A client-flow positioning direction for service providers with tool-heavy or scattered offers
+- A Featured asset kit with strategy, captions, upload order, and optional generated visuals
 - Recommendation request messages that ask for specific credibility, not vague praise
 - Content pillars and post ideas aligned with the user's positioning
 - A profile implementation checklist that keeps facts, claims, and proof aligned
@@ -56,7 +59,11 @@ The skill treats a profile as a system:
 - [`references/expert-stack.md`](references/expert-stack.md): expert lenses for profile writing, SEO, recruiting, and content
 - [`references/profile-templates.md`](references/profile-templates.md): reusable drafting formulas and section patterns
 - [`references/audit-scorecard.md`](references/audit-scorecard.md): scoring rubric and acceptance criteria
+- [`references/client-flow-positioning.md`](references/client-flow-positioning.md): service-offer positioning method
+- [`references/featured-assets-playbook.md`](references/featured-assets-playbook.md): Featured proof asset strategy
 - [`scripts/linkedin_keyword_map.py`](scripts/linkedin_keyword_map.py): lightweight keyword gap analysis helper
+- [`scripts/generate_featured_assets.py`](scripts/generate_featured_assets.py): configurable LinkedIn Featured asset generator
+- [`assets/featured-assets-template/example_config.json`](assets/featured-assets-template/example_config.json): anonymized sample config
 - [`agents/openai.yaml`](agents/openai.yaml): Codex/OpenAI-facing skill metadata
 
 ## How To Use
@@ -74,6 +81,18 @@ python scripts/linkedin_keyword_map.py --jobs job1.txt job2.txt job3.txt --profi
 ```
 
 The script is intentionally lightweight. Its output should guide human judgment, not replace it. A keyword belongs in the profile only when it is true, relevant, and supported by evidence.
+
+To generate a blue Featured asset kit from the included anonymized example:
+
+```bash
+python scripts/generate_featured_assets.py --config assets/featured-assets-template/example_config.json --out featured-assets-output
+```
+
+This creates:
+
+- square PNG pages for carousel/image use
+- multi-page PDFs for LinkedIn document uploads
+- a contact sheet for quick review
 
 ## What To Do Next
 
@@ -93,6 +112,7 @@ Then ask for one of these outputs:
 - **Profile Rewrite**: produce copy-paste-ready LinkedIn sections
 - **SEO Pack**: map target keywords into profile sections and identify gaps
 - **Content Pack**: create content pillars, post ideas, and authority-building direction
+- **Featured Asset Kit**: create proof assets, captions, and optional PNG/PDF exports
 - **Full Rebuild**: combine audit, rewrite, SEO, Featured strategy, recommendations, and content plan
 
 The normal flow is:
@@ -108,6 +128,8 @@ The normal flow is:
 ## Boundary
 
 This repository should stay generic. Do not commit private resumes, personal LinkedIn exports, client names, unpublished case studies, or confidential career documents here. Keep personal profile rebuild work in a separate private workspace.
+
+Generated assets should also be checked before publishing. Remove private contact details, confidential metrics, client names, and anything the user has not explicitly approved.
 
 ## North Star
 
