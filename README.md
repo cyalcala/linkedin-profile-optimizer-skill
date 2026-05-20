@@ -75,6 +75,36 @@ python scripts/linkedin_keyword_map.py --jobs job1.txt job2.txt job3.txt --profi
 
 The script is intentionally lightweight. Its output should guide human judgment, not replace it. A keyword belongs in the profile only when it is true, relevant, and supported by evidence.
 
+## What To Do Next
+
+Start with a concrete target. The skill works best when it knows what the profile is supposed to win.
+
+Give Codex:
+
+- A LinkedIn URL, exported profile text, screenshots, or a resume
+- The primary goal: job offers, clients, consulting leads, founder credibility, executive visibility, or audience growth
+- Target roles, industries, client types, or 3 to 10 job descriptions/client briefs
+- Proof: metrics, projects, portfolio links, testimonials, shipped work, awards, certifications, or case studies
+- Constraints: private clients, claims to avoid, tone preferences, or markets you do not want to target
+
+Then ask for one of these outputs:
+
+- **Audit**: score the current profile and identify the highest-impact fixes
+- **Profile Rewrite**: produce copy-paste-ready LinkedIn sections
+- **SEO Pack**: map target keywords into profile sections and identify gaps
+- **Content Pack**: create content pillars, post ideas, and authority-building direction
+- **Full Rebuild**: combine audit, rewrite, SEO, Featured strategy, recommendations, and content plan
+
+The normal flow is:
+
+1. Audit the current profile
+2. Choose the positioning direction
+3. Build the keyword map
+4. Rewrite the profile sections
+5. Add proof assets to Featured
+6. Request targeted recommendations
+7. Publish content that reinforces the same positioning
+
 ## Boundary
 
 This repository should stay generic. Do not commit private resumes, personal LinkedIn exports, client names, unpublished case studies, or confidential career documents here. Keep personal profile rebuild work in a separate private workspace.
@@ -84,4 +114,3 @@ This repository should stay generic. Do not commit private resumes, personal Lin
 A strong LinkedIn profile should make the right person think:
 
 > I understand what this person does, I believe they can do it, and I know why I should contact them.
-
