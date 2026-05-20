@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Profile Optimizer"
+  short_description: "LinkedIn SEO, profile, and content rebuilds"
+  default_prompt: "Use $linkedin-profile-optimizer to audit and rebuild my LinkedIn profile for my target opportunity."
